@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 30px 150px;
+    background-color: #1F2937;
+}
+
+.main {
+    height: 100vh;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin: 0 30px;
+    user-select: none;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BDBDBD;
+    margin: 20px 30px;
+    user-select: none;
+}
+
+button, input, p {
+     border: none;
+     border-radius: 5px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    background-color: #4ADF86;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.passwords-display {
+    border-top: 1px solid #2F3E53;
+    margin: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+input, p {
+    margin: 10px;
+    background-color: #273549;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #4ADF86;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #202B3C;
+    font-size: 24px;
+}
+
+input:focus-visible {
+    border: none;
+}
+
